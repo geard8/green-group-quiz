@@ -1,5 +1,7 @@
 import './App.css';
 import './components/style.css';
+import './css/Footer.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <h1>Vad för husdjur passar dig bäst?</h1>
       </article>
     </div>
+    <Footer />
     </>
   );
 }
