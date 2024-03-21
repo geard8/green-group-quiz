@@ -14,10 +14,18 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 48px;
+h1, h2 {
     font-family:'Times New Roman', Times, serif;
     font-weight: 500;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .container {
