@@ -1,6 +1,10 @@
-import Button from "./StyledButton";
+import './Button.module.css';
 
-const StartPage = () => {
+const StartPage = ({ onStartButtonClick }) => {
+  const handleStartButtonClick = () => {
+    onStartButtonClick(); // Call the function passed as prop when the start button is clicked
+  };
+  
     return (
       <>
           <h1>Vad för husdjur passar dig bäst?</h1>
@@ -20,7 +24,7 @@ const StartPage = () => {
             Här har vi några frågor som hjälper dig att hitta ett husdjur du kan ta väl hand om.
          </p>
          <div className="center">
-            <Button title="Hjälp mig hitta bra husdjur" />
+            <button title="Hjälp mig hitta bra husdjur" onClick={handleStartButtonClick}>Start</button>
         </div>
       </>
     );
