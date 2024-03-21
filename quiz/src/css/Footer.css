@@ -1,11 +1,13 @@
 footer {
-    position: fixed;
+   /* position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0;*/
     width: 100%;
+  
     background-color: rgb(80, 80, 80);
     color: white;
     text-align: left;
+    flex-shrink: 0;
   }
 
 .created-by {

@@ -14,13 +14,11 @@ function Footer() {
         // </style>
 
         <footer>
-            <div class="created-by">
-                <p> 
-                    Nicklas Thor: <a href="https://github.com/geard8">geard8</a> <br/>
-                    Martin Kjell Lennart Svensson: <a href="https://github.com/Torsten86">Torsten86</a> <br/>
-                    Bengt Jerry Hall: <a href="https://github.com/JerryH12">JerryH12</a>
-                </p>
-            </div>
+            <div className="created-by">  
+               Nicklas Thor: <a href="https://github.com/geard8">geard8</a> <br/>
+                Martin Kjell Lennart Svensson: <a href="https://github.com/Torsten86">Torsten86</a> <br/>
+                Jerry Hall: <a href="https://github.com/JerryH12">JerryH12</a>     
+           </div>
         </footer>
     );
   }
