@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 const Result = ({ answers, onReset }) => {
   const [mostSelected, setMostSelected] = useState('');
 
+  const [animalResult, setAnimalResult] = useState('Hund');
+
   useEffect(() => {
     // Calculate the most selected answer
     const count = {};
@@ -11,6 +13,12 @@ const Result = ({ answers, onReset }) => {
     });
     const mostSelectedAnswer = Object.keys(count).reduce((a, b) => count[a] > count[b] ? a : b, '');
     setMostSelected(mostSelectedAnswer);
+    if (mostSelectedAnswer == 'B' ) {
+      setAnimalResult('Katt');
+    }
+    if (mostSelectedAnswer == 'C') {
+      setAnimalResult('Köttätandeväxt');
+    }
   }, [answers]);
 
   const handleReset = () => {
@@ -20,7 +28,7 @@ const Result = ({ answers, onReset }) => {
   return (
     <div>
       <h2>Result</h2>
-      <p>The most selected answer is: {mostSelected}</p>
+      <p>The most selected answer is: {animalResult}</p>
       <button onClick={handleReset}>Reset</button>
     </div>
   );

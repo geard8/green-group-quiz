@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import Question from './Question';
+//import Question from './question';
 
 const Questions = ({ onAnswerChange, onAnswerSubmit, onReset }) => {
   const [answers, setAnswers] = useState({
@@ -52,106 +52,106 @@ const Questions = ({ onAnswerChange, onAnswerSubmit, onReset }) => {
         <Question question="question 6" name="question6"/>
         <Question question="question 7" name="question7"/> */}
         <fieldset>
-          <legend>Question 1:</legend>
+          <legend>Hur mycket tid vill du spendera på ditt djur?</legend>
           <label>
             <input type="radio" name="question1" value="A" onChange={e => handleAnswerChange('question1', e.target.value)} />
-            A
+            Mycket
           </label>
           <label>
             <input type="radio" name="question1" value="B" onChange={e => handleAnswerChange('question1', e.target.value)} />
-            B
+            Mellan
           </label>
           <label>
             <input type="radio" name="question1" value="C" onChange={e => handleAnswerChange('question1', e.target.value)} />
-            C
+            Lite
           </label>
         </fieldset>
         <fieldset>
-          <legend>Question 2:</legend>
+          <legend>Hur mycket pengar är du beredd på att spendera på ditt djur?</legend>
           <label>
             <input type="radio" name="question2" value="A" onChange={e => handleAnswerChange('question2', e.target.value)} />
-            A
+            Mycket
           </label>
           <label>
             <input type="radio" name="question2" value="B" onChange={e => handleAnswerChange('question2', e.target.value)} />
-            B
+            Mellan
           </label>
           <label>
             <input type="radio" name="question2" value="C" onChange={e => handleAnswerChange('question2', e.target.value)} />
-            C
+            Lite
           </label>
         </fieldset>
         <fieldset>
-          <legend>Question 3:</legend>
+          <legend>Hur mycket är du hemma?</legend>
           <label>
             <input type="radio" name="question3" value="A" onChange={e => handleAnswerChange('question3', e.target.value)} />
-            A
+            Mycket
           </label>
           <label>
             <input type="radio" name="question3" value="B" onChange={e => handleAnswerChange('question3', e.target.value)} />
-            B
+            Mellan
           </label>
           <label>
             <input type="radio" name="question3" value="C" onChange={e => handleAnswerChange('question3', e.target.value)} />
-            C
+            Lite
           </label>
         </fieldset>
         <fieldset>
-          <legend>Question 4:</legend>
+          <legend>Hur mycket plats har du i hemmet?</legend>
           <label>
             <input type="radio" name="question4" value="A" onChange={e => handleAnswerChange('question4', e.target.value)} />
-            A
+            Mycket
           </label>
           <label>
             <input type="radio" name="question4" value="B" onChange={e => handleAnswerChange('question4', e.target.value)} />
-            B
+            Mellan
           </label>
           <label>
             <input type="radio" name="question4" value="C" onChange={e => handleAnswerChange('question4', e.target.value)} />
-            C
+            Lite
           </label>
         </fieldset><fieldset>
-          <legend>Question 5:</legend>
+          <legend>Hur mycket plats har du runt hemmet?</legend>
           <label>
             <input type="radio" name="question5" value="A" onChange={e => handleAnswerChange('question5', e.target.value)} />
-            A
+            Mycket
           </label>
           <label>
             <input type="radio" name="question5" value="B" onChange={e => handleAnswerChange('question5', e.target.value)} />
-            B
+            Mellan
           </label>
           <label>
             <input type="radio" name="question5" value="C" onChange={e => handleAnswerChange('question5', e.target.value)} />
-            C
+            Lite
           </label>
         </fieldset>
         <fieldset>
-          <legend>Question 6:</legend>
+          <legend>Hur mycket vill du att ditt djur ska uppskatta dig?</legend>
           <label>
             <input type="radio" name="question6" value="A" onChange={e => handleAnswerChange('question6', e.target.value)} />
-            A
+            Mycket
           </label>
           <label>
             <input type="radio" name="question6" value="B" onChange={e => handleAnswerChange('question6', e.target.value)} />
-            B
+            Mellan
           </label>
           <label>
             <input type="radio" name="question6" value="C" onChange={e => handleAnswerChange('question6', e.target.value)} />
-            C
+            Lite
           </label>
         </fieldset><fieldset>
-          <legend>Question 7:</legend>
+          <legend>Hur mycket plats har en vän som kan hjälpa dig ta hand om djuret när du är bortrest?</legend>
           <label>
             <input type="radio" name="question7" value="A" onChange={e => handleAnswerChange('question7', e.target.value)} />
-            A
+            Mycket
           </label>
           <label>
             <input type="radio" name="question7" value="B" onChange={e => handleAnswerChange('question7', e.target.value)} />
-            B
+            Mellan
           </label>
           <label>
             <input type="radio" name="question7" value="C" onChange={e => handleAnswerChange('question7', e.target.value)} />
-            C
+            Lite
           </label>
         </fieldset>
         <button type="submit">Submit</button>
