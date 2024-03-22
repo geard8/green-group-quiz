@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/green-group-quiz/static/css/main.604091cc.css",
-    "main.js": "/green-group-quiz/static/js/main.6450a97a.js",
+    "main.js": "/green-group-quiz/static/js/main.abd0ebf2.js",
     "static/js/453.2b0627e5.chunk.js": "/green-group-quiz/static/js/453.2b0627e5.chunk.js",
     "index.html": "/green-group-quiz/index.html",
     "main.604091cc.css.map": "/green-group-quiz/static/css/main.604091cc.css.map",
-    "main.6450a97a.js.map": "/green-group-quiz/static/js/main.6450a97a.js.map",
+    "main.abd0ebf2.js.map": "/green-group-quiz/static/js/main.abd0ebf2.js.map",
     "453.2b0627e5.chunk.js.map": "/green-group-quiz/static/js/453.2b0627e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.604091cc.css",
-    "static/js/main.6450a97a.js"
+    "static/js/main.abd0ebf2.js"
   ]
 }
