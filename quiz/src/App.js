@@ -54,16 +54,18 @@ const App = () => {
   return (
 
     <>
-      <div>
-        {showStartPage && <StartPage onStartButtonClick={handleStartButtonClick} />}
-        {showQuestions && (
-          <Questions
-            onAnswerChange={handleAnswerChange}
-            onAnswerSubmit={handleAnswerSubmit}
-            onReset={handleReset}
-          />
-        )}
-        {showResult && <Result answers={answers} onReset={handleReset} />}
+      <div className="container">
+        <article>
+          {showStartPage && <StartPage onStartButtonClick={handleStartButtonClick} />}
+          {showQuestions && (
+            <Questions
+              onAnswerChange={handleAnswerChange}
+              onAnswerSubmit={handleAnswerSubmit}
+              onReset={handleReset}
+            />
+          )}
+          {showResult && <Result answers={answers} onReset={handleReset} />}
+        </article>
       </div>
       <Footer />
     </>
